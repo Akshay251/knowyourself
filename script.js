@@ -15,5 +15,5 @@ no.addEventListener("click",function(){
 });
 
 yes.addEventListener("click", function(){
-	alert("Got You!!! ;)")
+	alert("I knew it from the start ;)")
 })
