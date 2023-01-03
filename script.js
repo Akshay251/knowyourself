@@ -1,8 +1,8 @@
-var no = document.getElementById("yes");
-var yes = document.getElementById("no");
+var yes = document.getElementById("yes");
+var no = document.getElementById("no");
 var answer = document.getElementsByClassName("answer");
 
-no.addEventListener("mouseover",function(){
+yes.addEventListener("mouseover",function(){
 	/*let answerpos = answer.getBoundingClientRect();*/
 	let nopos = no.getBoundingClientRect();
 	/*let offset = nopos.top - answerpos.top;*/
@@ -14,6 +14,6 @@ no.addEventListener("mouseover",function(){
 	}
 });
 
-yes.addEventListener("click", function(){
+no.addEventListener("click", function(){
 	alert("I knew it from the start ;)")
 })
