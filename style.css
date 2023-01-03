@@ -26,6 +26,11 @@ button{
 	color: pink;
 	text-shadow: 1px 1px 0px black;
 	position: relative;
+	transition: 0.5s;
+}
+
+button:hover{
+	transform: scale(1.2);
 }
 
 .answer{
