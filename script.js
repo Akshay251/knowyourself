@@ -2,7 +2,7 @@ var yes = document.getElementById("yes");
 var no = document.getElementById("no");
 var answer = document.getElementsByClassName("answer");
 
-no.addEventListener("click",function(){
+no.addEventListener("mouseover",function(){
 	/*let answerpos = answer.getBoundingClientRect();*/
 	let nopos = no.getBoundingClientRect();
 	/*let offset = nopos.top - answerpos.top;*/
