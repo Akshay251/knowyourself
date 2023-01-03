@@ -1,5 +1,5 @@
-var yes = document.getElementById("yes");
-var no = document.getElementById("no");
+var yes = document.getElementById("no");
+var no = document.getElementById("yes");
 var answer = document.getElementsByClassName("answer");
 
 no.addEventListener("mouseover",function(){
